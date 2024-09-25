@@ -1,0 +1,63 @@
+body {
+    background-color: var(--primary-bg-color);
+}
+
+.container {
+    display: flex;
+    border: var(--card-border);
+    border-radius: 30px; /* Adjust border-radius for rounded corners */
+    background-color: var(--container-bg-color);
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    padding: 4%;
+}
+
+.col {
+    margin-right: 10%;
+}
+
+.details-label {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.details-context {
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.task-tag {
+    display: inline-block;
+}
+
+.highlight-text {
+    display: inline-block;
+    padding: 0px 5px; 
+    border-radius: 5px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    position: absolute;
+    right: 33px;
+    bottom: 25px;
+}
+
+button {
+    font-size: 14px;
+    background-color: var(--button-bg-color);
+    border-color: var(--button-bg-color);
+    color: #fff;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: var(--primary-bg-color);
+}
+
+.container {
+    display: flex;
+    border: var(--card-border);
+    border-radius: 30px; /* Adjust border-radius for rounded corners */
+    background-color: var(--container-bg-color); /* Background color inside the border */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 8%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.form {
+    padding: 8%;
+}
+
+.date {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.buttons {
+    position: absolute;
+    right: 33px;
+    bottom: 25px;
+}
+
+button {
+    font-size: 14px;
+    background-color: var(--button-bg-color);
+    border-color: var(--button-bg-color);
+    color: #fff;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+}

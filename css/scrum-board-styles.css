@@ -1,0 +1,94 @@
+body {
+    background-color: var(--primary-bg-color);
+}
+
+.panel {
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.fab {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: var(--button-bg-color);
+    border-color: var(--button-bg-color);
+}
+
+.fab:hover {
+    background-color: var(--button-hover-color);
+    border-color: var(--button-hover-color);
+}
+
+
+.btn.btn-primary.fab:active {
+    background-color: var(--button-hover-color);
+}
+
+.sprint-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sprint-card {
+    display: inline-block;
+    width: 30%; 
+    border: var(--card-border);
+    max-width: 370px;
+    border-radius: 8px;
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 15px;
+    margin-top: 20px;
+    margin-left: 80px;
+    background-color: #fff;
+}
+
+.sprint-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sprint-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    display: block;
+    padding:8px;
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+    background: #000;;
+}
+
+.profile-icon{
+    margin-left: 15px;
+}
+
+  
+

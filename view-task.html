@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/view-task-styles.css">
+    <link rel="stylesheet" href="css/color-theme-styles.css">
+    <title>view-task</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col">
+            <p class="details-label">Task Name</p>
+            <p class="details-context" id="task-name"></p>
+            <p class="details-label">Story Point</p>
+            <p class="details-context" id="task-story-point"></p>
+            <p class="details-label">Description</p>
+            <p class="details-context" id="task-description"></p>
+        </div>
+
+        <div class="col">
+            <p class="details-label">Type of task</p>
+            <p class="details-context" id="task-type"></p>
+            <p class="details-label">Tags</p>
+            <p class="details-context" style="max-width: 300px;" id="task-tag"></p>
+            <p class="details-label">Priority</p>
+            <p class="details-context" id="task-priority"></p>
+        </div>
+        <div class="col">
+            <p class="details-label">Assignee</p>
+            <p class="details-context" id="task-assignee"></p>
+            <p class="details-label">Status</p>
+            <p class="details-context" id="task-status"></p>
+            <p class="details-label">Stages</p>
+            <p class="details-context" id="task-stages"></p>
+        </div>
+        <div>
+            <button class="back" id="return-product-backlog-btn">Back</button>
+        </div>
+    </div>
+
+    <script type="module" src="scripts/theme-update.js"></script>
+    <script type="module" src="scripts/view-task-script.js"></script>
+</body>
+</html>

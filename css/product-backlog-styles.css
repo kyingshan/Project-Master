@@ -1,0 +1,124 @@
+body {
+    background-color: var(--primary-bg-color);
+}
+
+.panel {
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+select#sort {
+    border-radius: 20px;
+    text-align: center;
+}
+
+select#filter {
+    border-radius: 20px;
+    text-align: center;
+}
+
+.fab {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: var(--button-bg-color);
+    border-color: var(--button-bg-color);
+}
+
+.fab:hover {
+    background-color: var(--button-hover-color);
+    border-color: var(--button-hover-color);
+}
+
+.btn.btn-primary.fab:active {
+    background-color: var(--button-hover-color);
+}
+
+.task-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.task-card {
+    display: inline-block;
+    width: 30%; 
+    border: var(--card-border);
+    max-width: 370px;
+    border-radius: 8px;
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 15px;
+    margin-top: 45px;
+    margin-left: 45px;
+    background-color: #fff;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlight-text {
+    display: inline-block;
+    padding: 1px 5px; 
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.task-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.dlt-icon {
+    cursor: pointer;
+}
+
+.edit-icon {
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    display: block;
+    padding:8px;
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+    background: #000;;
+}
+
+.profile-icon{
+    margin-left: 15px;
+}
+  
+
